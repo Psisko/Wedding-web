@@ -1022,6 +1022,16 @@ form label {
 
 }
 
+#fh5co-services img {
+  max-width: 840px; /* Maximální šířka na počítačích */
+  height: auto; /* Zachová poměr stran */
+}
+@media (max-width: 768px) {
+  #fh5co-services img {
+    max-width: 100%; /* Na mobilních zařízeních se vejde do šířky rodičovského prvku */
+    height: auto; /* Zachová poměr stran */
+  }
+}
 
 
 #fh5co-testimonial,
