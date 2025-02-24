@@ -1033,6 +1033,20 @@ form label {
   }
 }
 
+#fh5co-event .event-image {
+  max-width: 440px; /* Maximální šířka na počítačích */
+  height: auto; /* Zachová poměr stran */
+  margin: 20px auto; /* Středění obrázku */
+}
+
+@media (max-width: 768px) {
+  #fh5co-event .event-image {
+    max-width: 100%; /* Na mobilních zařízeních se vejde do šířky rodičovského prvku */
+    height: auto; /* Zachová poměr stran */
+    margin: 10px auto; /* Středění obrázku */
+  }
+}
+
 
 #fh5co-testimonial,
 #fh5co-services,
