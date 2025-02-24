@@ -1048,6 +1048,19 @@ form label {
   }
 }
 
+#fh5co-map iframe {
+  width: 500px; /* Šířka na počítačích */
+  height: 500px; /* Výška na počítačích */
+  margin: 0 auto; /* Středění mapy */
+}
+
+@media only screen and (max-width: 768px) {
+  #fh5co-map iframe {
+    width: 300px; /* Šířka na mobilních zařízeních */
+    height: 300px; /* Výška na mobilních zařízeních */
+  }
+}
+
 #fh5co-testimonial,
 #fh5co-services,
 #fh5co-started,
