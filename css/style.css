@@ -310,6 +310,14 @@ h1, h2, h3, h4, h5, h6, figure {
   background-position: center;
   width: 100%;
 }
+
+@media only screen and (max-width: 768px) {
+  .fh5co-cover {
+    background-size: contain; /* Na mobilních zařízeních se vejde celé pozadí */
+    background-position: center; /* Středí pozadí */
+  }
+}
+
 .fh5co-cover .overlay {
   z-index: 0;
   position: absolute;
