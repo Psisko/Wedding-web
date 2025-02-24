@@ -1033,20 +1033,20 @@ form label {
   }
 }
 
-#fh5co-event img {
-  max-width: 440px; /* Maximální šířka na počítačích */
-  height: auto; /* Zachová poměr stran */
-  margin: 20px auto; /* Středění obrázku */
+#fh5co-event .event-wrap img {
+  max-width: 440px;
+  max-height: 270px;
+  aspect-ratio: 16 / 9;
+  height: auto;
 }
 
 @media (max-width: 768px) {
-  #fh5co-event img {
+  #fh5co-event .event-wrap img {
     max-width: 100%; /* Na mobilních zařízeních se vejde do šířky rodičovského prvku */
+    max-height: none; /* Odstraní omezení výšky */
     height: auto; /* Zachová poměr stran */
-    margin: 10px auto; /* Středění obrázku */
   }
 }
-
 
 #fh5co-testimonial,
 #fh5co-services,
