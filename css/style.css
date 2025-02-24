@@ -366,6 +366,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-accommodation,
 #fh5co-services,
 #fh5co-map,
+#fh5co-schedule,
 #fh5co-gifts {
   height: 850px;
   float: left;
@@ -380,6 +381,8 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-accommodation.display-tc,
 #fh5co-map.display-t,
 #fh5co-map.display-tc,
+#fh5co-schedule.display-t,
+#fh5co-schedule.display-tc,
 #fh5co-gifts.display-t,
 #fh5co-gifts.display-tc
 {
@@ -392,6 +395,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-services .fh5co-heading h2,
 #fh5co-accommodation .fh5co-heading h2,
 #fh5co-map .fh5co-heading h2,
+#fh5co-schedule .fh5co-heading h2,
 #fh5co-gifts .fh5co-heading h2 {
   color: #646464;
 }
@@ -400,6 +404,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-services .fh5co-heading span,
 #fh5co-accommodation .fh5co-heading span,
 #fh5co-map .fh5co-heading span,
+#fh5co-schedule .fh5co-heading span,
 #fh5co-gifts .fh5co-heading span{
   color: rgb(0, 0, 0);
   text-transform: uppercase;
@@ -412,6 +417,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-services .overlay,
 #fh5co-accommodation .overlay,
 #fh5co-map .overlay,
+#fh5co-schedule .overlay,
 #fh5co-gifts .overlay {
   position: absolute;
   top: 0;
@@ -426,6 +432,7 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-services,
   #fh5co-accommodation,
   #fh5co-map,
+  #fh5co-schedule,
   #fh5co-gifts {
     height: inherit;
     padding: 7em 0;
@@ -440,6 +447,8 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-accommodation .display-tc,
   #fh5co-map .display-t,
   #fh5co-map .display-tc,
+  #fh5co-schedule .display-t,
+  #fh5co-schedule .display-tc,
   #fh5co-gifts .display-t,
   #fh5co-gifts .display-tc {
     height: inherit;
@@ -450,6 +459,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-services .event-wrap,
 #fh5co-accommodation .event-wrap,
 #fh5co-map .event-wrap,
+#fh5co-schedule .event-wrap,
 #fh5co-gifts .event-wrap {
   border: 2px solid rgba(0, 0, 0, 0.5);
   padding: 18px;
@@ -466,6 +476,7 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-services .event-wrap,
   #fh5co-accommodation .event-wrap,
   #fh5co-map .event-wrap,
+  #fh5co-schedule .event-wrap,
   #fh5co-gifts .event-wrap{
     margin-bottom: 10px;
   }
@@ -474,7 +485,8 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-event .event-wrap h3,
 #fh5co-services .event-wrap h3,
 #fh5co-accommodation .event-wrap h3,
-#fh5co-map .event-wrap,
+#fh5co-map .event-wrap h3,
+#fh5co-schedule .event-wrap h3,
 #fh5co-gifts .event-wrap h3 {
   font-size: 14px;
   color: #000000;
@@ -509,6 +521,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-services .event-wrap i,
 #fh5co-accommodation .event-wrap i,
 #fh5co-map .event-wrap i,
+#fh5co-schedule .event-wrap i,
 #fh5co-gifts .event-wrap i {
   color: rgb(0, 0, 0);
   font-size: 20px;
@@ -518,6 +531,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-services .event-wrap .event-col,
 #fh5co-accommodation .event-wrap .event-col,
 #fh5co-map .event-wrap .event-col,
+#fh5co-schedule .event-wrap .event-col,
 #fh5co-gifts .event-wrap .event-col {
   width: 50%;
   float: left;
@@ -1069,6 +1083,7 @@ form label {
 #fh5co-event,
 #fh5co-accommodation,
 #fh5co-map,
+#fh5co-schedule,
 #fh5co-couple-story,
 #fh5co-couple,
 #fh5co-gallery,
