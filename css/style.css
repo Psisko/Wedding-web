@@ -909,9 +909,10 @@ form label {
 
 @media screen and (max-width: 480px) {
   #fh5co-header {
+    background-image: url('uvodni_phone.png');
     background-size: cover; /* Keeps the image covering the container */
     background-position: center center; /* Ensures the middle of the image is shown */
-    height: 100vh; /* Maintains full height on smaller screens */
+
   }
 }
 
