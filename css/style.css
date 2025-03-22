@@ -629,8 +629,8 @@ h1, h2, h3, h4, h5, h6, figure {
   .timeline > li > .timeline-badge {
     width: 60px;
     height: 60px;
-    line-height: 80px;
-    font-size: 0.6em;
+    line-height: 60px;
+    font-size: 0.8em;
     margin-left: -10px !important;
   }
 }
