@@ -900,6 +900,21 @@ form label {
   font-weight: normal !important;
 }
 
+#fh5co-header {
+  background-image: url('uvodni.png');
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-repeat: no-repeat; /* Prevents tiling */
+  height: 100vh; /* Makes sure it takes up full viewport height */
+}
+
+@media screen and (max-width: 480px) {
+  #fh5co-header {
+    background-size: cover; /* Keeps the image covering the container */
+    background-position: center center; /* Ensures the middle of the image is shown */
+    height: 100vh; /* Maintains full height on smaller screens */
+  }
+}
+
 #fh5co-header .display-tc,
 #fh5co-counter .display-tc,
 .fh5co-cover .display-tc {
