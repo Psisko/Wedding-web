@@ -559,14 +559,13 @@ h1, h2, h3, h4, h5, h6, figure {
   clear: both;
 }
 .timeline > li > .timeline-panel {
+  width: 40%;
+  float: left;
+  border: 1px solid #d4d4d4;
   display: block;
   color: rgba(0, 0, 0, 0.8);
   font-family: Sofia Sans Condensed;
   font-size: 20px;
-
-  width: 40%;
-  float: left;
-  border: 1px solid #d4d4d4;
   padding: 30px;
   position: relative;
   -webkit-border-radius: 4px;
@@ -610,8 +609,6 @@ h1, h2, h3, h4, h5, h6, figure {
 .timeline > li > .timeline-badge {
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  background-image:url('uvodni.png'); 
   position: relative;
   color: #fff;
   width: 120px;
